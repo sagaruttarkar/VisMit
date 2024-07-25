@@ -1,7 +1,7 @@
 /* Reset styles */
 * {
     box-sizing: border-box;
-    margin: 0;
+    margin: 5px;
     padding: 0;
 }
 
@@ -124,4 +124,20 @@ main {
 
 .blog-post p {
     line-height: 1.8;
+}
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start; /* Adjust alignment as needed */
+    margin: 20px; /* Optional: Add margin for spacing */
+}
+
+#calendar {
+    flex: 1; /* Take remaining space */
+    margin-right: 20px; /* Optional: Add margin between calendar and form */
+}
+
+#timeSlotForm {
+    width: 300px; /* Adjust width as needed */
+    /* Optional: Add additional styling */
 }
